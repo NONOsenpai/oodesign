@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="checkerboard.FXMLCheckerboardController">
+   <children>
+      <MenuBar fx:id="menuBar">
+         <menus>
+            <Menu mnemonicParsing="false" text="Grid">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleAction16" text="16*16" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleAction10" text="10*10" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleAction8" text="8*8" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleAction3" text="3*3" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Colors">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleActionDef" text="Default" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleActionBl" text="Blue" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleClear" text="Clear" />
+              </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</VBox>
