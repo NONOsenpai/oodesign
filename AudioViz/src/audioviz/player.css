@@ -1,0 +1,21 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-image: url('Cl6vfBackGround.jpg');
+    width: 100%;
+    height: 100%;
+    -fx-background-position: 100%;
+}
+.button{
+    -fx-background-color: gold;
+    -fx-border-color: goldenrod;
+    -fx-border-width: 3px;
+}
+
+.button:hover{
+    -fx-background-color: goldenrod;
+    -fx-border-color: goldenrod;
+    -fx-border-width: 6px;
+}
