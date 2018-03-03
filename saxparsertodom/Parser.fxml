@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="root" prefHeight="428.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="saxparsertodom.ParserController">
+   <children>
+      <TextArea prefHeight="200.0" prefWidth="200.0" fx:id="xmlTextArea" />
+      <HBox>
+         <children>
+            <Button mnemonicParsing="false" onAction="#uploadClick" prefHeight="27.0" prefWidth="91.0" text="File open" />
+            <Button mnemonicParsing="false" onAction="#parseClick" prefHeight="27.0" prefWidth="120.0" text="Process" />
+         </children>
+      </HBox>
+      <TextArea fx:id="parsedTextArea" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>
