@@ -23,7 +23,6 @@ namespace C_Sharp_Language_Basics
             const string integral = "\u222B";
             const string greeting = "Hello";
             string name = "Karen";
-
             if (sample1 == sample2)
             {
                 Console.WriteLine("The samples are equal.");
@@ -32,7 +31,6 @@ namespace C_Sharp_Language_Basics
             {
                 Console.WriteLine("The samples are not equal.");
             }
-
             if (heartRate >= 40 && heartRate <= 80)
             {
                 Console.WriteLine("Heart rate is normal.");
@@ -52,17 +50,13 @@ namespace C_Sharp_Language_Basics
             }
 
             float force = mass * acceleration;
-
             Console.WriteLine("force = " + force);
-
             Console.WriteLine(distance + " is the distance.");
-
             Console.WriteLine("I am really sorry! I will get the manager.");
             if (lost == true && expensive == true)
             {
                 Console.WriteLine("Here is a coupon for 10% off.");
             }
-
             switch (choice)
             {
                 case 1:
@@ -78,22 +72,17 @@ namespace C_Sharp_Language_Basics
                     Console.WriteLine("You made an unknown choice.");
                     break;
             }
-
             Console.WriteLine(integral + " is an integral.");
-
             for (int i = 5; i <= 10; i++)
             {
                 Console.WriteLine("i = " + i);
             }
-
             int age = 0;
-
             while (age < 6)
             {
                 Console.WriteLine("age = " + age);
                 age++;
             }
-
             Console.WriteLine(greeting + " " + name);
         }
     }
